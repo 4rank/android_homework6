@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fedorinchik_hw6</string>
+    <string name="bnv_todo">remaining task</string>
+    <string name="bvn_new_todo">new task</string>
+    <string name="text_todo_list">Todo List</string>
+    <string name="text_todo_main">Основная задача</string>
+    <string name="text_todo_else">Подзадачи</string>
+    <string name="text_data">дата</string>
+    <string name="text_todo">Напоминание:</string>
+    <string name="text_todo_2">Подзадачи:</string>
+    <string name="text_calendar">Дата для напоминания:</string>
+    <string name="final_todo_button_text">Вернуться к задачам</string>
+    <string name="button_new_todo">Создать</string>
+    <string name="button_theme">Сменить тему</string>
+    <string name="night_mode">Темная тема</string>
+    <string name="day_mode">Светлая тема</string>
+    <string name="button_todo_layout">Завершить</string>
+</resources>

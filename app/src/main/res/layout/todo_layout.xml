@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="300dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/round_item"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/text_todo_main"
+        android:layout_width="130sp"
+        android:layout_height="20sp"
+        android:layout_margin="5dp"
+        android:text="@string/text_todo_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_todo_else"
+        android:layout_width="80sp"
+        android:layout_height="20sp"
+        android:layout_margin="5dp"
+        android:text="@string/text_todo_else"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_todo_data"
+        android:layout_width="80sp"
+        android:layout_height="20sp"
+        android:layout_margin="5dp"
+        android:text="@string/text_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
